@@ -1,0 +1,30 @@
+.fltr {
+    filter: brightness(0.5);
+}
+
+.primary-color {
+    background: #289BDE;
+
+}
+
+@media only screen and (max-width:576px) {
+    .content-flex {
+        flex-direction: column;
+    }
+
+    .t-center {
+        text-align: center;
+    }
+
+    .display-fix {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .display-fix {
+        display: none;
+    }
+}
